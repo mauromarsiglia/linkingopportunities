@@ -83,6 +83,9 @@
 		0F4B4FE81AE2DC4300219B96 /* Linking Opportunities */ = {
 			isa = PBXGroup;
 			children = (
+				0F4D64671AE2ED05006B24B2 /* views */,
+				0F4D64661AE2ECFF006B24B2 /* models */,
+				0F4D64651AE2ECF5006B24B2 /* controllers */,
 				0F4B4FED1AE2DC4300219B96 /* AppDelegate.h */,
 				0F4B4FEE1AE2DC4300219B96 /* AppDelegate.m */,
 				0F4B4FF31AE2DC4300219B96 /* ViewController.h */,
@@ -120,6 +123,27 @@
 				0F4B50071AE2DC4300219B96 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0F4D64651AE2ECF5006B24B2 /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = controllers;
+			sourceTree = "<group>";
+		};
+		0F4D64661AE2ECFF006B24B2 /* models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = models;
+			sourceTree = "<group>";
+		};
+		0F4D64671AE2ED05006B24B2 /* views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -416,6 +440,7 @@
 				0F4B500E1AE2DC4300219B96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0F4B500F1AE2DC4300219B96 /* Build configuration list for PBXNativeTarget "Linking OpportunitiesTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +449,7 @@
 				0F4B50111AE2DC4300219B96 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
